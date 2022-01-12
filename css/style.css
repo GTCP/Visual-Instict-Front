@@ -1,0 +1,143 @@
+*{
+   font-family: monospace;
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+body{
+   background-image: url("images/fondo.jpg");
+   background-repeat: no-repeat;
+   height: 110%;
+   width: 98.8%;
+}
+.botonnavegador, .linkbtn{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   text-decoration: none;
+   color: #70dcba;
+}
+html{
+   height: 100%;
+   width: 100%;
+}
+.linkbtn{
+   margin: 0 50%;
+}
+@media only screen and (min-width: 990px){
+   .centrado{
+      margin: 0 18%;
+   }
+}
+@media only screen and (min-width: 1085px){
+   .centrado{
+      margin: 0 20%;
+   }
+}
+
+@media only screen and (min-width: 1270px){
+   .centrado{
+      margin: 0 25%;
+   }
+}
+
+@media only screen and (min-width: 1370px){
+   .centrado{
+      margin: 0 27%;
+   }
+}
+.navColap{
+   color:#70dcba;
+   margin: 0 0 0 50%;
+}
+.portada{
+   padding: 0;
+}
+
+ .foto-alan, .foto-guille{
+   margin:5% 0;
+   padding: 0;
+   height: 60%;
+   width: 60%; 
+}
+@media only screen and (min-width: 320px){
+   .blanco{
+      color: white;
+      background-color: red;
+   }
+   .btnEditar, .btnBorrar{
+      background-color: black;
+      color: white;
+   }
+   .botonnavegador .linkbtn:hover{
+      background: #70dcba;
+      color: #333333;
+      text-decoration: none;
+   }
+   .footer {
+      background-color: #333333; 
+      font-size: 170%;
+      color: aquamarine; 
+   }
+   select, .option-config, .form-group, .form-control{ 
+      text-align-last: center;
+   }
+   .justifyText{
+      text-align : justify;
+   }
+   .parraf{
+      margin: 2% 0;
+      color: white;
+      font-size: 75%;
+   }
+   .tabla{
+      color: white;
+      height: 100%;
+      width: 100%;
+      font-size: 50%;
+   }
+}
+
+@media only screen and (min-width: 500px){
+   .parraf{
+      font-size: 80%;
+   }
+   .tabla{
+      font-size: 70%;
+   }
+}
+@media only screen and (min-width: 1000px){
+   .parraf{
+      font-size: 110%;
+   }
+   .tabla{
+      font-size: 100%;
+   }
+}
+.form-group{
+   font-size: 180%;
+   color: white;
+}
+.tabla{
+   margin: 2.5% 20% 0 20%;
+}
+.photo{
+   margin: 1.5% 0 0 0;
+}
+.botones{
+   margin: 2% 0 0 0;
+}
+.ocultar{
+   visibility: hidden;
+   display: none;
+}
+.gallery, .social{
+   margin: 0 10%
+}
+#random{
+   font-size: 200%;
+}
+.resaltado{
+   color:red;
+}
+
